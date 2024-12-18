@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/submit", (req, res) => {
+  
   //Step 2 - Make the generate name functionality work
   //Hint: When the "Generate Name" button in index.ejs is clicked, it should hit up this route.
   //Then:
